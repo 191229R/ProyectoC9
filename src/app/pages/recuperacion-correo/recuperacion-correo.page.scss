@@ -1,26 +1,30 @@
 ion-toolbar{
-    --background: var(--ion-color-mycolor);
-    
-  }
-  ion-card{
-    
-    --background: var( --ion-color-login);
-    opacity:0.9;
-  }
+  --background: linear-gradient(#2d7aff, #358bfb);
   
-  ion-content{
-    --background: var(--ion-color-fondo);
-  }
+}
+ion-card{
+  --background: var( --ion-color-login);
+  opacity:0.8;
   
-  ion-button{
-    --background: var(--ion-color-button);
-  }
-  
-  mat-form-field,ion-label{
-    color: black;
-  }
+}
+ion-content{
+  --background: linear-gradient(#4786ef, #f4f5f8);
+}
 
- ion-card{
-  margin-top: 100px;
- }
+ion-button{
+  --background: linear-gradient(#5560ff, #0040ff);
   
+}
+
+ion-title{
+    color: #f4f5f8;
+}
+
+mat-form-field,ion-label{
+  color: black;
+}
+
+
+ion-card{
+  margin-top: 130px;
+ }

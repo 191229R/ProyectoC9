@@ -1,19 +1,21 @@
 ion-toolbar{
-    --background: var(--ion-color-mycolor);
-    
+  --background: linear-gradient(#2d7aff, #358bfb);
+  
+}
+ion-card{
+  
+  --background: var( --ion-color-login);
+  opacity:0.8;
+}
+ion-content{
+  --background: linear-gradient(#4786ef, #9ab3ff);
 }
 
+ion-button{
+  --background: linear-gradient(#5560ff, #0040ff);
+}
 
-ion-content{
-    --background: var(--ion-color-fondo);
-  }
+mat-form-field,ion-label{
+  color: black;
+}
 
-  mat-form-field,ion-label{
-    color: white;
-  }
-
-  ion-button{
-    --background: var(--ion-color-button);
-    
-  }
-  
