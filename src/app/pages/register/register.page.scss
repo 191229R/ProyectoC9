@@ -1,0 +1,19 @@
+ion-toolbar{
+    --background: var(--ion-color-mycolor);
+    
+}
+
+
+ion-content{
+    --background: var(--ion-color-fondo);
+  }
+
+  mat-form-field,ion-label{
+    color: white;
+  }
+
+  ion-button{
+    --background: var(--ion-color-button);
+    
+  }
+  

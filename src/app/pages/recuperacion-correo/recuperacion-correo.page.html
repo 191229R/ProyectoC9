@@ -1,0 +1,38 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/"
+      text="Regresar"
+      color="mycolor">
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content style="text-align: center !important;">
+  <ion-card >
+    <form class="example-form" #formUser="ngForm">
+      <br><br>
+      <ion-row>
+        <ion-col>
+          
+          
+          <mat-form-field class="example-full-width" >
+            <mat-label style="color:dark-light;">Correo Electronico</mat-label>
+            <input  type="email" #emailCount matInput name="email" placeholder="Correo Electronico"
+            [(ngModel)]="user.email" 
+            (keyup)="onKeyEmail($event)"
+            required>
+            <mat-hint aling="end">{{emailCount.value.length}}</mat-hint>
+          </mat-form-field>
+  
+          <br><br>
+          <ion-button (click)="save(formUser)">Enviar Correo</ion-button>
+  
+        </ion-col>
+      </ion-row>
+    </form>
+
+  </ion-card>
+  
+</ion-content>
